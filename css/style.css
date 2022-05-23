@@ -1,0 +1,16 @@
+/* COLOR PALETTE
+jumbo rgb(180,208,231) 
+*/
+/* UTILS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
