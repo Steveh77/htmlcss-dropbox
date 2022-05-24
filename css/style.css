@@ -1,6 +1,6 @@
 /* COLOR PALETTE
 nav   white
-jumbo rgb(180,208,231) 
+jumbo rgb(180,208,231)
 */
 /* UTILS */
 
@@ -10,23 +10,52 @@ jumbo rgb(180,208,231)
     box-sizing: border-box;
 }
 .big-container{
-    max-width: 850px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .small-container{
-
+    max-width: 930px;
+    margin: 0 auto;
+    padding-top: 150px;
 }
 body{
     font-family: 'Open Sans', sans-serif;
 }
 .blue-button{
     background-color: rgb(0,97,254);
-    padding: 5px 10px;
+    padding: 10px 10px;
     color: white;
+    justify-content: center;
 }
-.flex-colunm{
+
+.flex-direction-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-direction-colunm{
     display: flex;
     flex-direction: column;
+}
+.padding-top50px{
+    padding-top: 50px;
+}
+.padding-bot50px{
+    padding-bottom: 50px;
+}
+.padding-right20px{
+    padding-right: 20px;
+}
+.padding-left20px{
+    padding-left: 20px;
+}
+.margin-right5px{
+    margin-right: 5px;
+}
+.margin-left20px{
+    margin-left: 20px;
+}
+.color-blue{
+    color: blue;
 }
 /* GENERALS */
 ul{
@@ -45,6 +74,14 @@ h1{
     font-size: 59px;
     font-weight: bold;
 }
+h2{
+    font-size: 30px;
+}
+hr{
+    
+    width: 50px;
+}
+
 /* HEADER */
 nav{
     display: flex;
@@ -84,7 +121,7 @@ nav{
     font-size: 50px;
     position: absolute;
     animation: bounce 0.5s linear infinite alternate;
-    
+
 }
 @keyframes bounce {
     from{
@@ -93,10 +130,49 @@ nav{
     to{
         bottom:20px;
     }
-    
+
 }
 .img-jumbo-bottom{
     height: 500px;
     padding-top: 40px;
 }
+
 /* MAIN */
+.blue-circle{
+    color: rgb(0,97,255);
+    height: 20px;
+    width: 20px;
+    border: 5px solid rgb(0,97,255);
+    border-radius: 50%;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+/* plans card */
+.plans-card-container{
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.plans-card{
+    width: 30%;
+    max-height: 100%;
+    border: 1px solid rgb(215,215,218);
+}
+.title-card{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(215,215,218);
+}
+.card-button{
+    font-size: 14px;
+    margin: auto;
+    margin-top: 30px;
+    width: 200px
+}
+.underlined-a{
+    text-decoration: underline;
+    color: blue;
+}
