@@ -10,7 +10,7 @@ jumbo rgb(180,208,231)
     box-sizing: border-box;
 }
 .big-container{
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 .small-container{
@@ -27,7 +27,9 @@ body{
     color: white;
     justify-content: center;
 }
-
+.border{
+    border: 1px solid rgb(215,215,218);
+}
 .flex-direction-row{
     display: flex;
     flex-direction: row;
@@ -36,11 +38,23 @@ body{
     display: flex;
     flex-direction: column;
 }
+.padding-30px{
+    padding: 30px;
+}
 .padding-top50px{
     padding-top: 50px;
 }
+.padding-top100px{
+    padding-top: 100px;
+}
+.padding-top20px{
+    padding-top: 20px;
+}
 .padding-bot50px{
     padding-bottom: 50px;
+}
+.padding-bot20px{
+    padding-bottom: 20px;
 }
 .padding-right20px{
     padding-right: 20px;
@@ -51,11 +65,79 @@ body{
 .margin-right5px{
     margin-right: 5px;
 }
+.margin-right50px{
+    margin-right: 50px;
+}
 .margin-left20px{
     margin-left: 20px;
 }
+.margin-top50px{
+    margin-top: 50px;
+}
+.margin-bot50px{
+    margin-bottom: 50px;
+}
+.margin-50px{
+    margin: 50px;
+}
+.w-30{
+    width: 30%;
+}
+.w-60{
+    width: 60%;
+}
+.h-50{
+    height: 50px;
+}
+.h-100{
+    height: 100px;
+}
+.underlined-a{
+    text-decoration: underline;
+    color: blue;
+}
+.lightgreen-border{
+    border: 10px solid rgb(209,233,205);
+}
+.border-grey-bottom{
+    border-bottom: 1px solid rgb(172,172,172);
+}
+/* COLORS */
 .color-blue{
     color: blue;
+}
+.color-white{
+    color: white;
+}
+.bg-lightgreen{
+    background-color:rgb(162,211,155);
+}
+.bg-brown{
+    background-color: rgb(97,8,43);
+}
+.bg-lightblue{
+    background-color: rgb(0,147,206);
+}
+.bg-red{
+    background-color: rgb(255,28,28);
+}
+.bg-red2{
+    background-color: rgb(213,0,31);
+}
+.bg-grey{
+    background-color: rgb(180,208,231);
+}
+.bg-blue{
+    background-color: rgb(13,36,129);
+}
+.bg-yellow{
+    background-color: rgb(255,216,48);
+}
+.bg-grey2{
+    background-color: rgb(245,245,245);
+}
+.bg-h2{
+    color: rgb(97,8,43);
 }
 /* GENERALS */
 ul{
@@ -76,6 +158,10 @@ h1{
 }
 h2{
     font-size: 30px;
+}
+h6{
+    font-size: 13px;
+    font-weight: normal;
 }
 hr{
     
@@ -172,7 +258,116 @@ nav{
     margin-top: 30px;
     width: 200px
 }
-.underlined-a{
-    text-decoration: underline;
-    color: blue;
+
+.orizontal-plans-card{
+    width: 100%;
+    height: 300px;
+}
+
+
+/* PARTNER SECTION*/
+.partner-box{
+    width: 100%;
+    height: 500px;
+    
+}
+.partner-img{
+    height: 100%;
+}
+.partner-btn{
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+/* DROPBOX BUSINESS */
+.dropbox-business-box{
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}
+.dropbox-card{
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+.business-img{
+    height: 200px;
+}
+.h2-business{
+    width: 470px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* DESIGNIT SECTION */
+.container-designit{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    
+}
+.box-d{
+    width: calc(100vw/3);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-d{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-d img{
+    width: 50%;
+    filter: invert(1);
+}
+.designit-hr{
+    margin-top: 50px;
+}
+
+/* "Porta Dropbox busines nella tua azienda" */
+.dba{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.btn-prova-gratuita{
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border: none;
+}
+/* domande frequenti */
+.answer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+    border-top: 1px solid rgb(172,172,172);
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-hr{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 80px;
 }
