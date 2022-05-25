@@ -8,6 +8,7 @@ jumbo rgb(180,208,231)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth
 }
 .big-container{
     max-width: 1050px;
@@ -135,6 +136,9 @@ body{
 }
 .bg-grey2{
     background-color: rgb(245,245,245);
+}
+.bg-grey3{
+    background-color: rgb(180,208,231);
 }
 .bg-h2{
     color: rgb(97,8,43);
@@ -321,6 +325,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 10px solid transparent;
+    transition: border 0.5s;
 }
 .card-d img{
     width: 50%;
@@ -329,6 +335,7 @@ nav{
 .designit-hr{
     margin-top: 50px;
 }
+
 
 /* "Porta Dropbox busines nella tua azienda" */
 .dba{
@@ -370,4 +377,37 @@ footer{
     margin-top: 50px;
     margin-bottom: 25px;
     width: 80px;
+}
+
+
+
+/* HOVER */
+/* HOVER navbar */
+#border-bonus:hover{
+    border-bottom: 1px solid black;
+}
+/* HOVER designit */
+.bg-lightgreen:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-brown:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-lightblue:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-red:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-red2:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-grey:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-blue:hover{
+    border: 10px solid rgb(209,233,205);
+}
+.bg-yellow:hover{
+    border: 10px solid rgb(209,233,205);
 }
